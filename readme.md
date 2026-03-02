@@ -7,9 +7,9 @@ The primary goal of this repository is to allow reviewers to inspect the core al
 
 ## Repository Structure
 
-Folder `data/` contains utensils for constructing data input pipeliens for segmentation and auxiliary tasks
+Folder `data/` contains data transformation utilities for constructing data input pipeliens for segmentation and auxiliary tasks.
 
-Folder `losses/` contains loss functions for segmentation and auxiliary tasks
+Folder `losses/` contains loss functions for training with segmentation and auxiliary tasks.
 
 Folder `tasks/` contains the core implementations of our proposed method:
 - `medical_image_segmentation.py`
